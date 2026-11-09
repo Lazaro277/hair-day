@@ -6,12 +6,17 @@
   border-radius: 0.75rem;
 
   padding: 5rem;
+  padding-top: .5rem;
   padding-bottom: 1.5rem;
 
   display: flex;
   flex-direction: column;
 
   overflow-y: scroll;
+
+  @media (width <=30em) {
+    padding: 1rem;
+  }
 }
 
 .form>header {
