@@ -4,16 +4,16 @@ import { schedulesShow } from "./show.js";
 
 const selectedDate = document.getElementById("date")
 export async function schedulesDay() {
-  // Obtém a data do input
-  const date = selectedDate.value
+  try {
+    const date = selectedDate.value
 
-  // Busca na API os agendamentos
-  const dailySchedules = await scheduleFetchByDay({ date })
+    const dailySchedules = await scheduleFetchByDay({ date })
 
-  // Exibe os agendamentos
-  schedulesShow({ dailySchedules })
+    schedulesShow({ dailySchedules })
 
-  // Renderiza as horas disponíveis.
-  hoursLoad({ date, dailySchedules })
-
+    hoursLoad({ date, dailySchedules })
+  } catch (error) {
+    console.error("Erro ao carregar agendamentos:", error)
+    alert("Não foi possível carregar os agendamentos. Tente novamente.")
+  }
 }
