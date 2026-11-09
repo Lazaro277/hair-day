@@ -24,6 +24,16 @@ O projeto foi desenvolvido com foco na prática de desenvolvimento web, integra�
 - **JSON Server** — simulação de uma API REST para armazenamento dos agendamentos.
 - **Fetch API** — comunicação entre o front-end e a API.
 
+## 📖 Guia de execução
+
+Precisa de ajuda para instalar e executar o Hair Day?
+
+Acesse o guia completo com instruções passo a passo:
+
+**[Acessar guia de instalação e execução](https://lazarom.dev/hair-day/)**
+
+O guia explica como clonar o repositório, instalar as dependências, iniciar a API e executar a aplicação localmente.
+
 ## Como executar o projeto
 
 ### Pré-requisitos
