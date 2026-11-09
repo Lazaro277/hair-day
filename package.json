@@ -3,9 +3,9 @@
   "description": "Aplicação Web para agendamento de corte de cabelo.",
   "author": "Lázaro Messias",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack server",
-    "server": "json-server --watch server.json --port 3333"
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "server": "json-server server.json --port 3333"
   },
   "dependencies": {
     "dayjs": "^1.11.10",
