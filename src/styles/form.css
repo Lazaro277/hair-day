@@ -1,11 +1,11 @@
 .form {
   grid-area: form;
-  max-width: 512px;
+  max-width: 580px;
 
   background-color: #232225;
   border-radius: 0.75rem;
 
-  padding: 5rem;
+  padding: 4.5rem;
   padding-top: .5rem;
   padding-bottom: 1.5rem;
 
